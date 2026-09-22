@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Putra Hasiq Syarifudin</title>
+
+<style>
+  /* ===== RESET DASAR ===== */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f7;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  /* ===== CONTAINER UTAMA ===== */
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  /* ===== HEADER / BAGIAN ATAS CV ===== */
+  header {
+    background-color: #14406b; /* biru tua profesional */
+    color: #ffffff;
+    padding: 30px 25px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+
+  header p.peran {
+    font-size: 16px;
+    font-weight: normal;
+    color: #cfe0f0;
+    margin-bottom: 15px;
+  }
+
+  header p.deskripsi {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #e6eef7;
+  }
+
+  /* ===== NAVIGASI KONTAK ===== */
+  nav.kontak {
+    background-color: #1d5a94;
+    padding: 12px 25px;
+    text-align: center;
+  }
+
+  nav.kontak ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  nav.kontak li {
+    color: #ffffff;
+    font-size: 13px;
+  }
+
+  /* ===== BAGIAN KONTEN ===== */
+  section {
+    padding: 20px 25px;
+    border-bottom: 1px solid #e0e6ec;
+  }
+
+  section:last-of-type {
+    border-bottom: none;
+  }
+
+  section h2 {
+    color: #14406b;
+    font-size: 19px;
+    margin-bottom: 12px;
+    border-left: 4px solid #14406b;
+    padding-left: 10px;
+  }
+
+  /* ===== LIST UMUM ===== */
+  ul.list-standar {
+    list-style: disc;
+    padding-left: 20px;
+  }
+
+  ul.list-standar li {
+    margin-bottom: 6px;
+  }
+
+  /* ===== BAGIAN PENDIDIKAN ===== */
+  article.pendidikan-item h3 {
+    font-size: 16px;
+    color: #1a1a1a;
+  }
+
+  article.pendidikan-item p {
+    font-size: 14px;
+    color: #444444;
+  }
+
+  article.pendidikan-item span.tahun {
+    font-size: 13px;
+    color: #777777;
+    font-style: italic;
+  }
+
+  /* ===== BAGIAN KEAHLIAN ===== */
+  .keahlian-group {
+    margin-bottom: 12px;
+  }
+
+  .keahlian-group h3 {
+    font-size: 15px;
+    color: #14406b;
+    margin-bottom: 5px;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background-color: #14406b;
+    color: #dbe6f0;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+  }
+
+  /* ===== RESPONSIVE UNTUK LAYAR KECIL ===== */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 22px;
+    }
+
+    nav.kontak ul {
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    section {
+      padding: 15px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<main>
+
+  <!-- ===== HEADER: NAMA, PERAN, DESKRIPSI SINGKAT ===== -->
+  <header>
+    <h1>Putra Hasiq Syarifudin</h1>
+    <p class="peran">Mahasiswa Sistem Informasi</p>
+    <p class="deskripsi">
+      Mahasiswa Sistem Informasi dengan minat di bidang teknologi informasi dan pengembangan aplikasi.
+      Senang mempelajari dan mencoba hal baru.
+    </p>
+  </header>
+
+  <!-- ===== NAVIGASI: DATA KONTAK ===== -->
+  <nav class="kontak">
+    <ul>
+      <li>Email: putraputra47373@gmail.com</li>
+      <li>HP: 087720406524</li>
+      <li>Domisili: Banyumas, Jawa Tengah</li>
+      <li>LinkedIn: putra-hasiq-598011383</li>
+      <li>GitHub: username0rahardian</li>
+    </ul>
+  </nav>
+
+  <!-- ===== BAGIAN PENDIDIKAN ===== -->
+  <section id="pendidikan">
+    <h2>Pendidikan</h2>
+    <article class="pendidikan-item">
+      <h3>Universitas Telkom Purwokerto</h3>
+      <p>Program Studi Sistem Informasi</p>
+      <span class="tahun">2025 &ndash; Sekarang</span>
+    </article>
+  </section>
+
+  <!-- ===== BAGIAN KEAHLIAN ===== -->
+  <section id="keahlian">
+    <h2>Keahlian</h2>
+
+    <div class="keahlian-group">
+      <h3>Bahasa / Teknis</h3>
+      <ul class="list-standar">
+        <li>HTML</li>
+      </ul>
+    </div>
+
+    <div class="keahlian-group">
+      <h3>Tools</h3>
+      <ul class="list-standar">
+        <li>Visual Studio Code</li>
+        <li>GitHub</li>
+        <li>Canva</li>
+        <li>Alight Motion</li>
+      </ul>
+    </div>
+
+    <div class="keahlian-group">
+      <h3>Soft Skill</h3>
+      <ul class="list-standar">
+        <li>Berpikir kritis</li>
+        <li>Kreatif</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== BAGIAN MINAT / INFORMASI TAMBAHAN ===== -->
+  <section id="minat">
+    <h2>Minat</h2>
+    <p>
+      Menyukai video editing dan animasi, dan aktif belajar secara mandiri
+      untuk mengasah kemampuan di bidang tersebut.
+    </p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    &copy; 2026 Putra Hasiq Syarifudin. CV ini dibuat untuk keperluan tugas kuliah.
+  </footer>
+
+</main>
+
+</body>
+</html>
